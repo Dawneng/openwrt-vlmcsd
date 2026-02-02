@@ -56,7 +56,7 @@ return view.extend({
 		const o = s.taboption('config_file', form.TextValue, '_tmpl',
 			null,
 			_("This is the content of the file '/etc/vlmcsd.ini', you can edit it here, usually no modification is needed."));
-		o.rows = 20;
+		o.rows = 50;
 		o.monospace = true;
 		o.load = () => fs.trimmed('/etc/vlmcsd.ini');
 		o.write = (_, value) => fs.write('/etc/vlmcsd.ini', value.trim().replace(/\r\n/g, '\n') + '\n');

@@ -39,7 +39,6 @@ define Package/vlmcsd/description
 endef
 
 define Package/vlmcsd/conffiles
-/etc/config/vlmcsd
 /etc/vlmcsd.ini
 endef
 
@@ -53,8 +52,7 @@ define Package/vlmcsd/install
 
 	$(INSTALL_DIR) $(1)/etc
 	$(INSTALL_BIN) ./files/vlmcsd.ini $(1)/etc/vlmcsd.ini
-	$(INSTALL_DIR) $(1)/etc/config
-	$(INSTALL_BIN) ./files/vlmcsd.conf $(1)/etc/config/vlmcsd
+
 	$(INSTALL_DIR) $(1)/etc/init.d
 	$(INSTALL_BIN) ./files/vlmcsd.init $(1)/etc/init.d/vlmcsd
 endef

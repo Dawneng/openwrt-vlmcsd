@@ -30,7 +30,7 @@ msgstr "編輯 /etc/vlmcsd.ini 檔案的內容。"
 
 #: applications/luci-app-vlmcsd/htdocs/luci-static/resources/view/vlmcsd.js:52
 msgid "Enable Vlmcsd KMS Server"
-msgstr "啟用 Vlmcsd KMS 伺服器"
+msgstr "啟用 KMS 伺服器"
 
 #: applications/luci-app-vlmcsd/htdocs/luci-static/resources/view/vlmcsd.js:49
 msgid "General Settings"
@@ -58,4 +58,4 @@ msgstr "這是 /etc/vlmcsd.ini 檔案的內容，您可以在此進行編輯，�
 #: applications/luci-app-vlmcsd/htdocs/luci-static/resources/view/vlmcsd.js:30
 #: applications/luci-app-vlmcsd/root/usr/share/luci/menu.d/luci-app-vlmcsd.json:3
 msgid "Vlmcsd KMS Server"
-msgstr "Vlmcsd KMS 伺服器"
+msgstr "KMS 伺服器"

@@ -6,10 +6,10 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_VERSION:=1.0.3
-PKG_RELEASE:=1
-
 LUCI_TITLE:=LuCI support for Vlmcsd KMS Server
+PKG_VERSION:=1.2.0
+PKG_RELEASE:=1
+LUCI_PKGARCH:=all
 LUCI_DEPENDS:=+vlmcsd
 
 include $(TOPDIR)/feeds/luci/luci.mk
